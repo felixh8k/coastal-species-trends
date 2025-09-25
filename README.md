@@ -1,17 +1,19 @@
-📊 Trends in [Species Name] Occurrence (GBIF Data)
+📊 Trends in Thunnus albacares Occurrence (GBIF Data)
+
 🌊 Project Overview
 
-This project explores temporal and spatial patterns in the occurrence records of [Species name, e.g., Thunnus albacares — Yellowfin Tuna], using openly available biodiversity data from GBIF
+This project explores temporal and spatial patterns in the occurrence records of Thunnus albacares — Yellowfin Tuna, using openly available biodiversity data from GBIF
 .
 The goal is to demonstrate how reproducible data workflows can uncover meaningful insights for marine conservation.
 
 Main questions:
 
-How have reported occurrences of [Species] changed over time?
+How have reported occurrences of Thunnus albacares changed over time?
 
 Are there seasonal patterns in observations?
 
 What are the potential implications for monitoring and conservation?
+
 
 📂 Repository Structure
 /data_download.ipynb   # Script to query & download raw occurrence data
@@ -21,6 +23,7 @@ What are the potential implications for monitoring and conservation?
 /trend_dashboard.html  # Interactive trend visualization (Plotly)
 /slides.pdf            # Summary slides for communication
 /README.md             # Project documentation
+
 
 🔧 Tech Stack
 
@@ -32,11 +35,12 @@ Data Source: Global Biodiversity Information Facility (GBIF) API
 
 Reproducibility: Jupyter Notebooks + GitHub
 
+
 📊 Methods
 
 Data Acquisition
 
-Queried GBIF API for [Species] records between [year–year].
+Queried GBIF API for Thunnus albacares records between 2000 - 2024.
 
 Exported data in CSV format.
 
@@ -67,6 +71,7 @@ Visualization
 Built interactive Plotly dashboard for temporal trends.
 
 Created summary slides with key figures and conservation implications.
+
 
 📈 Results (to fill in after analysis)
 
@@ -109,7 +114,13 @@ data_cleaning.ipynb
 
 analysis.ipynb
 
+
 📬 Contact
 
-Created by Felix Hinsch, feel free to connect with me on LinkedIn
+Created by Felix Hinsch. 
+Email: felixh8k@gmail.com
+LinkedIn:
+GitHub:
+
+Feel free to connect with me on LinkedIn
 or see more projects at GitHub.
