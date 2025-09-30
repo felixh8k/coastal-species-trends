@@ -118,7 +118,9 @@ analysis.ipynb
 ## Contact
 
 Created by Felix Hinsch. 
+
 Email: felixh8k@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/felix-hinsch-201604281/
 
 Feel free to connect with me on LinkedIn
