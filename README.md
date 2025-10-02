@@ -27,7 +27,7 @@ What are the potential implications for monitoring and conservation?
 
 ## Tech Stack
 
-Language: Python 3.11 (or R alternative)
+Language: Python 3.11 
 
 Libraries: pandas, numpy, matplotlib, seaborn, plotly, folium, statsmodels
 
@@ -73,19 +73,19 @@ Reproducibility: Jupyter Notebooks + GitHub
 - Created summary slides with key figures and conservation implications.
 
 
-## Results (to fill in after analysis)
+## Results 
 
-Trend: Occurrence records show [increase/decrease/stability] from [start year] to [end year].
+Trend: Occurrence records show decrease from 2000 to 2024, with the biggest decline around 2012.
 
-Seasonality: Clear peaks observed in [months/season], suggesting [possible explanation].
+Seasonality: Clear peaks observed in January, suggesting data entry bias (Jan 1 used when no month/date entered).
 
-Statistical test: Trend slope = [X], p = [Y] (significant / not significant).
+Statistical test: Trend slope = [-44.238], p = [3.45e-41] (significant***).
 
 ## Conservation Implications
 
 These results suggest that:
 
-Thunnus albacares sightings are [increasing/decreasing] in [region].
+Thunnus albacares sightings are decreasing globally.
 
 Seasonal occurrence patterns may align with [migration/spawning/fishing pressure].
 
@@ -103,7 +103,7 @@ cd coastal-species-trends
 
 conda create -n marine-data python=3.11
 conda activate marine-data
-pip install -r requirements.txt
+pip install -r requirements.txt???
 
 
 ### Run notebooks in order:
